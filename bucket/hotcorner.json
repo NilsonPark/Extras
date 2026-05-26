@@ -1,0 +1,20 @@
+{
+    "homepage": "https://github.com/taviso/hotcorner",
+    "version": "1.4",
+    "description": "A tool for triggering actions from hot screen corners.",
+    "license": "GPL-3.0",
+    "bin": [
+        [
+            "hotcorner.exe",
+            "hotcorner"
+        ]
+    ],
+    "url": "https://github.com/taviso/hotcorner/releases/download/v1.4/hotcorner.zip",
+    "hash": "be10db1fe78642f50e300a2a01d510f2c563a00f0587258c7c494e4181209824",
+    "checkver": {
+        "github": "https://github.com/taviso/hotcorner"
+    },
+    "autoupdate": {
+        "url": "https://github.com/taviso/hotcorner/releases/download/v$version/hotcorner.zip"
+    }
+}
