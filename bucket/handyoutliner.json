@@ -1,0 +1,24 @@
+{
+    "version": "1.1.6.4",
+    "description": "Create bookmarks for DjVu and PDF documents",
+    "homepage": "http://handyoutlinerfo.sourceforge.net/index.htm",
+    "license": "GPLv3",
+    "url": "https://downloads.sourceforge.net/project/handyoutlinerfo/1.1.6.4/handyoutliner_1.1.6.4.zip",
+    "hash": "4952d7379df8bc44df67cef5f1915091b2a5289ff837f59d3d53847d22711fa0",
+    "extract_dir": "handyoutliner_1.1.6.4",
+    "bin": "HandyOutliner.exe",
+    "shortcuts": [
+        [
+            "HandyOutliner.exe",
+            "HandyOutliner"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/handyoutlinerfo/rss",
+        "regex": "handyoutliner_([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/handyoutlinerfo/$version/handyoutliner_$version.zip",
+        "extract_dir": "handyoutliner_$version"
+    }
+}
