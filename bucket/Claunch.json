@@ -1,0 +1,15 @@
+{
+    "homepage": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/en/claunch.html",
+    "description": "Simple and lightweight application launcher for Windows",
+    "version": "4.10",
+    "license": "Freeware",
+    "url": "https://ss1.xrea.com/pyonkichi.g1.xrea.com/archives/cl64_410.zip",
+    "hash": "efd8693cb262c408fd1b921c1bfa3c969335831eb677261abc7db902cee8a80b",
+    "bin": "CLaunch.exe",
+    "shortcuts": [
+        [
+            "CLaunch.exe",
+            "CLaunch"
+        ]
+    ]
+}
