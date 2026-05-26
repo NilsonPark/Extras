@@ -1,0 +1,17 @@
+{
+    "version": "1.1.2",
+    "description": "A simple QR Code reader for Windows.",
+    "homepage": "https://github.com/ottozumkeller/QR-Code-Reader",
+    "license": "MIT",
+    "url": "https://github.com/ottozumkeller/QR-Code-Reader/releases/download/v1.1.2/QR-Code-Reader-1.1.2-x86.msi",
+    "hash": "sha256:a77693658c64fbe418f616ab2ac751c979a2458bb1ab6c1281284487f9bc7ac5",
+    "installer": {
+        "msi": "QR-Code-Reader-1.1.2-x86.msi"
+    },
+    "checkver": {
+        "github": "https://github.com/ottozumkeller/QR-Code-Reader"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ottozumkeller/QR-Code-Reader/releases/download/v$version/QR-Code-Reader-$version-x86.msi"
+    }
+}
