@@ -1,0 +1,37 @@
+{
+    "version": "1.17.3",
+    "description": "Open-source Research photo management .",
+    "homepage": "https://tropy.org/",
+    "license": "AGPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tropy/tropy/releases/download/v1.17.3/tropy-1.17.3-full.nupkg",
+            "hash": "d143af7c9538c4f7131e8d54c3df27affb4b48396840cd101a3433c63ee87482"
+        },
+        "32bit": {
+            "url": "https://github.com/tropy/tropy/releases/download/v1.17.3/tropy-1.17.3-ia32-full.nupkg",
+            "hash": "7edbfd7d714539f264da56cd888d2360c577a7e6508e67a96fa2cd443b4f09b5"
+        }
+    },
+    "extract_dir": "lib\\net45",
+    "bin": "tropy.exe",
+    "shortcuts": [
+        [
+            "tropy.exe",
+            "tropy"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/tropy/tropy"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tropy/tropy/releases/download/v$version/tropy-$version-full.nupkg"
+            },
+            "32bit": {
+                "url": "https://github.com/tropy/tropy/releases/download/v$version/tropy-$version-ia32-full.nupkg"
+            }
+        }
+    }
+}
