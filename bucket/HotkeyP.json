@@ -1,0 +1,36 @@
+{
+    "version": "4.11",
+    "homepage": "https://plastovicka.github.io/others.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/hotkeyp/hotkeyp_64bit.zip",
+            "hash": "sha1:267c4acb59b0a20fd6c6c466c67c1188c35a28ff"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/hotkeyp/hotkeyp.zip",
+            "hash": "sha1:e90a3cd47dc2c2b814f8ab5c1b0d50ec43085e4e"
+        }
+    },
+    "bin": [
+        "HotkeyP.exe",
+        "hotkeyp.exe"
+    ],
+    "shortcuts": [
+        [
+            "hotkeyp.exe",
+            "HotkeyP"
+        ]
+    ],
+    "checkver": "HotkeyP ([\\d.]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/hotkeyp/hotkeyp_64bit.zip"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/hotkeyp/hotkeyp.zip"
+            }
+        }
+    }
+}
